@@ -197,7 +197,7 @@ export const Card = (props: CardProps) => {
     <ThemeProvider theme={theme}>
       <MainContainer onClick={onClick}>
         <ImageContainer>
-          <img src={image} />
+          <img src={image} alt=" image not found" />
         </ImageContainer>
         <InfoContainer>
           <Typography

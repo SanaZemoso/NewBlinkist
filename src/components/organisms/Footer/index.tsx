@@ -17,7 +17,7 @@ let WrapContainer = styled("div")({
     display: "flex",
     flexDirection: "row",
     position: 'relative',
-    left: 260
+    left: 100
 });
 
 let LeftContainer = styled("div")({
