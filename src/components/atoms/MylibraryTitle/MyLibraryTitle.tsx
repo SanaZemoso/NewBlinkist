@@ -10,7 +10,7 @@ const useStyles=makeStyles({
         position: 'absolute',
         width: '250px',
         height: '45px',
-        left: '264px',
+        left: '450px',
         top: '145px',
         fontFamily: 'Raleway',
         fontStyle: 'normal',

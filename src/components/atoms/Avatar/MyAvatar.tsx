@@ -6,7 +6,7 @@ const useStyles=makeStyles({
     
     avatar:
     {
-        left:'456px',
+        left:'390px',
         top:'23px'
         
     }

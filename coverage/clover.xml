@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1652887353043" clover="3.2.0">
-  <project timestamp="1652887353043" name="All files">
-    <metrics statements="312" coveredstatements="129" conditionals="44" coveredconditionals="9" methods="105" coveredmethods="40" elements="461" coveredelements="178" complexity="0" loc="312" ncloc="312" packages="31" files="69" classes="69"/>
+<coverage generated="1652948098633" clover="3.2.0">
+  <project timestamp="1652948098633" name="All files">
+    <metrics statements="293" coveredstatements="134" conditionals="38" coveredconditionals="9" methods="102" coveredmethods="41" elements="433" coveredelements="184" complexity="0" loc="293" ncloc="293" packages="31" files="66" classes="66"/>
     <package name="src">
       <metrics statements="19" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="6" coveredmethods="0"/>
       <file name="App.tsx" path="/home/sanafm/my-blinkist-app/src/App.tsx">
@@ -31,16 +31,6 @@
         <line num="8" count="0" type="stmt"/>
         <line num="9" count="0" type="stmt"/>
         <line num="10" count="0" type="stmt"/>
-      </file>
-    </package>
-    <package name="src.components.atoms">
-      <metrics statements="4" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-      <file name="ProgressBar.tsx" path="/home/sanafm/my-blinkist-app/src/components/atoms/ProgressBar.tsx">
-        <metrics statements="4" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="27" count="1" type="stmt"/>
-        <line num="29" count="0" type="stmt"/>
-        <line num="30" count="0" type="stmt"/>
       </file>
     </package>
     <package name="src.components.atoms.Avatar">
@@ -77,16 +67,16 @@
       </file>
     </package>
     <package name="src.components.atoms.DownArrow">
-      <metrics statements="6" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <metrics statements="6" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
       <file name="DownArrow.stories.tsx" path="/home/sanafm/my-blinkist-app/src/components/atoms/DownArrow/DownArrow.stories.tsx">
         <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="10" count="0" type="stmt"/>
         <line num="12" count="0" type="stmt"/>
       </file>
       <file name="DownArrow.tsx" path="/home/sanafm/my-blinkist-app/src/components/atoms/DownArrow/DownArrow.tsx">
-        <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="5" count="0" type="stmt"/>
-        <line num="26" count="0" type="stmt"/>
+        <metrics statements="4" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
         <line num="28" count="0" type="stmt"/>
         <line num="30" count="0" type="stmt"/>
       </file>
@@ -107,13 +97,28 @@
       </file>
     </package>
     <package name="src.components.atoms.PlusIcon">
-      <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
+      <metrics statements="6" coveredstatements="4" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="1"/>
+      <file name="PlusIcon.text.tsx" path="/home/sanafm/my-blinkist-app/src/components/atoms/PlusIcon/PlusIcon.text.tsx">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+      </file>
       <file name="PlusIcon.tsx" path="/home/sanafm/my-blinkist-app/src/components/atoms/PlusIcon/PlusIcon.tsx">
         <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
         <line num="5" count="1" type="stmt"/>
         <line num="24" count="1" type="stmt"/>
         <line num="27" count="100" type="stmt"/>
         <line num="28" count="100" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.atoms.ProgressBar">
+      <metrics statements="4" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="ProgressBar.tsx" path="/home/sanafm/my-blinkist-app/src/components/atoms/ProgressBar/ProgressBar.tsx">
+        <metrics statements="4" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
       </file>
     </package>
     <package name="src.components.atoms.Searchicon">
@@ -163,6 +168,20 @@
         <line num="22" count="0" type="stmt"/>
         <line num="24" count="0" type="stmt"/>
         <line num="27" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.atoms.Typography">
+      <metrics statements="5" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <file name="index.stories.tsx" path="/home/sanafm/my-blinkist-app/src/components/atoms/Typography/index.stories.tsx">
+        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+      </file>
+      <file name="index.tsx" path="/home/sanafm/my-blinkist-app/src/components/atoms/Typography/index.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
       </file>
     </package>
     <package name="src.components.atoms.UpArrow">
@@ -540,10 +559,10 @@
       </file>
     </package>
     <package name="src.components.themes">
-      <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="theme.tsx" path="/home/sanafm/my-blinkist-app/src/components/themes/theme.tsx">
-        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="3" count="0" type="stmt"/>
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="1" type="stmt"/>
       </file>
     </package>
     <package name="src.pages">
@@ -565,53 +584,6 @@
         <line num="35" count="0" type="stmt"/>
         <line num="38" count="0" type="stmt"/>
         <line num="40" count="0" type="stmt"/>
-      </file>
-    </package>
-    <package name="src.stories">
-      <metrics statements="26" coveredstatements="0" conditionals="6" coveredconditionals="0" methods="6" coveredmethods="0"/>
-      <file name="Button.stories.tsx" path="/home/sanafm/my-blinkist-app/src/stories/Button.stories.tsx">
-        <metrics statements="9" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="17" count="0" type="stmt"/>
-        <line num="19" count="0" type="stmt"/>
-        <line num="21" count="0" type="stmt"/>
-        <line num="26" count="0" type="stmt"/>
-        <line num="27" count="0" type="stmt"/>
-        <line num="31" count="0" type="stmt"/>
-        <line num="32" count="0" type="stmt"/>
-        <line num="37" count="0" type="stmt"/>
-        <line num="38" count="0" type="stmt"/>
-      </file>
-      <file name="Button.tsx" path="/home/sanafm/my-blinkist-app/src/stories/Button.tsx">
-        <metrics statements="3" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="30" count="0" type="stmt"/>
-        <line num="37" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="38" count="0" type="stmt"/>
-      </file>
-      <file name="Header.stories.tsx" path="/home/sanafm/my-blinkist-app/src/stories/Header.stories.tsx">
-        <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="11" count="0" type="stmt"/>
-        <line num="13" count="0" type="stmt"/>
-        <line num="14" count="0" type="stmt"/>
-        <line num="18" count="0" type="stmt"/>
-        <line num="19" count="0" type="stmt"/>
-      </file>
-      <file name="Header.tsx" path="/home/sanafm/my-blinkist-app/src/stories/Header.tsx">
-        <metrics statements="2" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="13" count="0" type="stmt"/>
-        <line num="14" count="0" type="stmt"/>
-      </file>
-      <file name="Page.stories.tsx" path="/home/sanafm/my-blinkist-app/src/stories/Page.stories.tsx">
-        <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="12" count="0" type="stmt"/>
-        <line num="14" count="0" type="stmt"/>
-        <line num="15" count="0" type="stmt"/>
-        <line num="20" count="0" type="stmt"/>
-        <line num="21" count="0" type="stmt"/>
-      </file>
-      <file name="Page.tsx" path="/home/sanafm/my-blinkist-app/src/stories/Page.tsx">
-        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="13" count="0" type="stmt"/>
-        <line num="14" count="0" type="stmt"/>
       </file>
     </package>
   </project>

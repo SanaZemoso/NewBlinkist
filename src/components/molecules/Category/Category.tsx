@@ -14,7 +14,7 @@ const useStyles=makeStyles({
 
     name:
     {
-        fontFamily: 'Raleway',
+        fontFamily: 'Cera Pro',
         fontStyle: 'normal',
         fontWeight: 'normal',
         fontSize: '16px',

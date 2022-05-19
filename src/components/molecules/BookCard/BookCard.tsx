@@ -29,7 +29,7 @@ const useStyles=makeStyles({
         bookName:
         {
             color:"#03314B",
-            fontFamily: 'Raleway',
+            fontFamily: 'Cera Pro',
             fontStyle: 'normal',
             fontWeight: 'bold',
             fontSize: '18px',
@@ -48,7 +48,7 @@ const useStyles=makeStyles({
         },
         author:
         {
-            fontFamily: 'Raleway',
+            fontFamily: 'Cera Pro',
             fontStyle: 'normal',
             fontWeight: 'normal',
             fontSize: '16px',
@@ -60,7 +60,7 @@ const useStyles=makeStyles({
         },
         read:
         {
-            fontFamily: 'Raleway',
+            fontFamily: 'Cera Pro',
             fontStyle: 'normal',
             fontWeight: 'normal',
             fontSize: '14px',
@@ -71,7 +71,7 @@ const useStyles=makeStyles({
         },
         reads:
         {
-            fontFamily: 'Raleway',
+            fontFamily: 'Cera Pro',
             fontStyle: 'normal',
             fontWeight: 'normal',
             fontSize: '14px',

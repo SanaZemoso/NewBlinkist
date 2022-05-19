@@ -1,6 +1,6 @@
 import { ComponentMeta, ComponentStory } from "@storybook/react"
 import image_1 from '../../../asserts/images/1.png';
-import { ProgressBar } from "../../atoms/ProgressBar";
+import { ProgressBar } from "../../atoms/ProgressBar/ProgressBar";
 import CurrentlyReading from "../../organisms/GridOfBooks/CurrentlyReading";
 import BookCard from "./BookCard";
 import image_2 from '../../../asserts/images/2.png';

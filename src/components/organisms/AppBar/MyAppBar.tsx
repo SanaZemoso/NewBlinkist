@@ -21,7 +21,7 @@ const useStyles=makeStyles({
        backgroundColor:'#FFFFFF',
        height: '86px',
        width: '1440px',
-       left: '0px',
+       left: '20px',
        top: '0px',
        borderRadius: '0px',
        
@@ -33,7 +33,7 @@ const useStyles=makeStyles({
 
     height: '26px',
     width: '124.09091186523438px',
-    paddingLeft: '250px',
+    paddingLeft: '445px',
     paddingTop: '30px',
     borderRadius: '0px'
     
@@ -112,8 +112,8 @@ const useStyles=makeStyles({
     width: '20.606668472290039px',
     borderRadius: '0px',
     color: '#042330',
-    marginLeft:'448px',
-    marginTop:'25.85px',
+    marginLeft:'375px',
+    marginTop:'22.85px',
    },
    avatar:
    {

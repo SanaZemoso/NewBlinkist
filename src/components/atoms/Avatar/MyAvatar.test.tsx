@@ -7,7 +7,7 @@ test("MyAvatar Alphabet should be A",()=>{
         <MyAvatar alphabet="S"/>
     );
 
-     const alphabet = screen.getByText('A');
+     const alphabet = screen.getByText('S');
     
      expect(alphabet).toBeInTheDocument();
 
